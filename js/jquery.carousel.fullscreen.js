@@ -10,7 +10,7 @@
         intiCarousel: function() {
             $('.carousel').carousel({
                 pause: "false",
-                interval: 800000000
+                interval: 4000
             });
 
             if ($(W).width() > 450 && $(W).width() < 750) {
