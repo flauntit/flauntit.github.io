@@ -76,7 +76,8 @@
                     },
                     contactNumber: {
                         required: true,
-                        phoneUS: true
+                        number: true,
+                        minlength : 10
                     }
                 },
                 messages: {
@@ -85,7 +86,8 @@
                     address: "Please enter Delivery Address",
                     contactNumber: {
                         required: "Please enter your Contact Number",
-                        phoneUS: "Please enter valid Contact Number"
+                        number: "Please enter valid Contact Number",
+                        minlength: "Please enter valid Contact Number"
                     }
                 },
                 submitHandler: function(form) {
